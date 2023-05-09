@@ -1,0 +1,124 @@
+Configuration	f103test
+STM32CubeMX 	6.5.0
+Date	05/09/2023
+MCU	STM32F103C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN4	ADC1_IN4	PA4
+ADC1	IN5	ADC1_IN5	PA5
+CAN	Activated	CAN_RX	PB8
+CAN	Activated	CAN_TX	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	TIM4	SYS_VS_tim4	VP_SYS_VS_tim4
+TIM1	One pulse	TIM1_VS_OPM	VP_TIM1_VS_OPM
+TIM2	PWM Generation CH1	TIM2_CH1	PA15
+TIM3	XOR ON / Hall Sensor Mode	TIM3_CH1	PA6
+TIM3	XOR ON / Hall Sensor Mode	TIM3_CH2	PA7
+TIM3	XOR ON / Hall Sensor Mode	TIM3_CH3	PB0
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+10	PA0-WKUP	ADC1_IN0	
+11	PA1	ADC1_IN1	
+12	PA2	ADC1_IN2	
+13	PA3	ADC1_IN3	
+14	PA4	ADC1_IN4	
+15	PA5	ADC1_IN5	
+16	PA6	TIM3_CH1	
+17	PA7	TIM3_CH2	
+18	PB0	TIM3_CH3	
+19	PB1	GPIO_Output	
+20	PB2	GPIO_Output	
+21	PB10	GPIO_Output	
+22	PB11	GPIO_Output	
+38	PA15	TIM2_CH1	
+45	PB8	CAN_RX	
+46	PB9	CAN_TX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN4	ADC1_IN4	PA4
+ADC1	IN5	ADC1_IN5	PA5
+CAN	Activated	CAN_RX	PB8
+CAN	Activated	CAN_TX	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	TIM4	SYS_VS_tim4	VP_SYS_VS_tim4
+TIM1	One pulse	TIM1_VS_OPM	VP_TIM1_VS_OPM
+TIM2	PWM Generation CH1	TIM2_CH1	PA15
+TIM3	XOR ON / Hall Sensor Mode	TIM3_CH1	PA6
+TIM3	XOR ON / Hall Sensor Mode	TIM3_CH2	PA7
+TIM3	XOR ON / Hall Sensor Mode	TIM3_CH3	PB0
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+10	PA0-WKUP	ADC1_IN0	
+11	PA1	ADC1_IN1	
+12	PA2	ADC1_IN2	
+13	PA3	ADC1_IN3	
+14	PA4	ADC1_IN4	
+15	PA5	ADC1_IN5	
+16	PA6	TIM3_CH1	
+17	PA7	TIM3_CH2	
+18	PB0	TIM3_CH3	
+19	PB1	GPIO_Output	
+20	PB2	GPIO_Output	
+21	PB10	GPIO_Output	
+22	PB11	GPIO_Output	
+38	PA15	TIM2_CH1	
+45	PB8	CAN_RX	
+46	PB9	CAN_TX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : f103test
+Project Folder : /home/synsi/STM32CubeIDE/workspace_1.9.0/f103test
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.4
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
